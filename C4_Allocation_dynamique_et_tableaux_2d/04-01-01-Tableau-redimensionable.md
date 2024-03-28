@@ -23,6 +23,28 @@ doivent y être stockés dépasse sa capacité actuelle.
 N'oubliez pas de tester si les allocations dynamiques ont fonctionné et
 de libérer la mémoire en fin de programme. 
 
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    size_t nb = 0;
+    int* tab = NULL;
+    tab = (int*) malloc(sizeof(int) * nb);
+    
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary>Solution</summary>

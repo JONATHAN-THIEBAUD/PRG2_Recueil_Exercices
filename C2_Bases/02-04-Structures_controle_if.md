@@ -11,6 +11,24 @@ Exemple
 - Entrée: _117_
 - Sorties: _117 est divisible par 3 et 13_
 
+
+
+```c
+int i;
+scanf("%d", &i);
+if(!i%3 && !i%13)
+    printf("Divisible par 3 et 13");
+else
+    printf("Pas divisible par 3 et 13");
+
+```
+
+
+
+
+
+
+
 <details>
 <summary>Solution</summary>
 
